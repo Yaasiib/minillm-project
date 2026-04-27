@@ -1,0 +1,9 @@
+dataset,model,checkpoint,exact_match,rougeL
+dolly_test_500_seed42,SFT,outputs/gpt2_small_dolly_best_lr_5e-5,0.0,17.7086
+dolly_test_500_seed42,KD,outputs/gpt2_KD_dolly_best_V2_lr_5e-5,0.0,16.9213
+dolly_test_500_seed42,reverse,outputs/gpt2_reverseKD_dolly_best__lr_5e-5,0.0,17.9441
+dolly_test_500_seed42,SeqKD,outputs/gpt2_seqKD_V3_dolly_lr_5e-5/checkpoint-1879,0.8,23.9782
+selfinet,SFT,outputs/gpt2_small_dolly_best_lr_5e-5,0.0,9.2854
+selfinet,KD,outputs/gpt2_KD_dolly_best_V2_lr_5e-5,0.0,9.1833
+selfinet,reverse,outputs/gpt2_reverseKD_dolly_best__lr_5e-5,0.0,9.2817
+selfinet,SeqKD,outputs/gpt2_seqKD_V3_dolly_lr_5e-5/checkpoint-1879,0.0,11.7702
