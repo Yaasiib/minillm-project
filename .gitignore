@@ -5,3 +5,6 @@ outputs/
 *.safetensors
 __pycache__/
 .ipynb_checkpoints/
+gpt2-small.zip
+*.zip
+models/
